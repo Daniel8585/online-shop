@@ -1,0 +1,44 @@
+.homepage{
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    display: flex;
+    text-align: center;
+   dt{
+       color:white;
+       font-size: 13px;
+   }
+    
+   .icon{
+       color: white;
+       margin-inline-start: auto;
+       padding-right: 50px;
+      ul{
+          display: flex;
+          dt{
+              padding-right: 25px;
+          }
+      }
+   }
+
+   .num{
+       padding-left: 50px;
+       ul{
+        display: flex;
+       }
+       dt{
+           padding-left: 25px;
+           
+       }
+       
+   }
+
+ @media all and (max-width: 600px){
+     flex-direction: column;
+ }
+  
+ ul dt{
+     text-align: center;
+ }
+
+}
