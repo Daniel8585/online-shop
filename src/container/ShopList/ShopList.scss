@@ -1,0 +1,79 @@
+.shoplist{
+    width: 1920px;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    
+   .shoptext{
+         background-color: white;
+      
+       div{
+           margin-top: 60%;
+           margin-left: 0;
+       }  
+
+      p{
+          background-color: white;
+          color: black;
+          font-size: 30px;
+          text-align: center;
+          top: 250px;
+        }
+        .text1{
+            font-size: 30px;
+            margin: 0;
+            text-align: start;
+        }
+        .text2{
+            color: lightseagreen ;
+            font-size: 14px;
+            text-align: start;
+        }
+        .text3{
+            padding-top: 30px;
+            font-size: 14px;
+            text-align: start;
+        }
+
+        
+   } 
+     
+    div{
+        width: 300px;
+        height: 600px;
+        margin: 30px;
+        color:black;
+
+        img{
+            width: 300px;
+            height: 450px;
+            background-color: black;
+        }
+    }
+    .price{
+        color: lightseagreen;
+        font-size: 18px;
+        margin: 0;
+    }
+    .title{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .star{
+        color: yellow;
+    }
+
+    .icon2{
+        background-color:lightseagreen ;
+        width:35px;
+        height: 35px;
+
+       .ic1 {
+            color: white;
+            
+        }
+    }
+
+    
+}

@@ -1,5 +1,5 @@
 .homepage{
-    width: 100%;
+    width: 1920px;
     height: 45px;
     background-color: black;
     display: flex;
@@ -24,21 +24,21 @@
    .num{
        padding-left: 50px;
        ul{
+        padding: 0;   
         display: flex;
        }
        dt{
+           flex-basis: auto;
            padding-left: 25px;
            
        }
        
    }
 
- @media all and (max-width: 600px){
-     flex-direction: column;
- }
-  
- ul dt{
-     text-align: center;
- }
+} 
 
-}
+@media only screen and (max-width: 300px) {
+    .homepage {
+         width:100%;    
+  }
+  }

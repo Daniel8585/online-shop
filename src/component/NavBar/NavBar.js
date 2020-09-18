@@ -1,7 +1,7 @@
 import React from 'react';
 import '../NavBar/NavBar.scss'
 
-import ReactNavbar from "react-responsive-animate-navbar";
+
 import {FaFacebookF,FaTwitter,FaInstagram,FaLinkedinIn,FaBehance,FaPhoneAlt,FaEnvelope} from "react-icons/fa";
 
 function NavBar (){
@@ -11,7 +11,7 @@ function NavBar (){
 
              <div className="num">
                  <ul>
-                     <dt><FaPhoneAlt/></dt>
+                     <dt><FaPhoneAlt /></dt>
                      <dt>+1 123 456 789</dt>
 
                      <dt><FaEnvelope/></dt>
