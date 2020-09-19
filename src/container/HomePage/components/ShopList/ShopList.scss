@@ -1,0 +1,106 @@
+.shoplist{
+    width: 1920px;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    
+   .shoptext{
+         background-color: white;
+      
+       div{
+           margin-top: 60%;
+           margin-left: 0;
+       }  
+
+      p{
+          background-color: white;
+          color: black;
+          font-size: 30px;
+          text-align: center;
+          top: 250px;
+        }
+        .text1{
+            font-size: 30px;
+            margin: 0;
+            text-align: start;
+        }
+        .text2{
+            color: lightseagreen ;
+            font-size: 14px;
+            text-align: start;
+        }
+        .text3{
+            padding-top: 30px;
+            font-size: 14px;
+            text-align: start;
+        }
+
+        
+   } 
+     
+    div{
+        width: 300px;
+        height: 600px;
+        margin: 30px;
+        color:black;
+        position: relative;
+
+        img{
+            width: 300px;
+            height: 450px;
+            background-color: black;
+        }
+    }
+    .price{
+        color: lightseagreen;
+        font-size: 18px;
+        margin: 0;
+    }
+    .title{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .star{
+        color: yellow;
+    }
+
+   
+
+    ul{
+        display: flex;
+        padding: 0;
+    
+        ol{
+            color:#FF9600;
+            font-size: 14px;
+            padding: 1px;
+        }
+    }
+
+    // .ic1{
+    //     background-color:lightseagreen;
+    //     display: inline;
+    // }
+    
+    .ic1{
+        position: absolute;
+        margin: 0;
+        margin-inline-start: 80%;
+        div{
+            width: 40px;
+            height: 40px;
+            background-color: lightseagreen;
+            text-align: center;
+            color: white;
+            margin: 10px; 
+            font-size: 18px;
+
+            .i1{
+                text-align: center;
+                margin: 0;
+                margin-top: 25%;
+            }
+        }
+    }
+}
