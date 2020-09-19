@@ -1,0 +1,40 @@
+.menuDiv{
+    height: 65px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    justify-content: space-between;
+    .grid-item1{
+        margin-left: 76px;
+        .logo{
+            color:green
+        }
+    }
+
+    .grid-item2{
+        .main1{
+            list-style-type: none;
+
+            display: flex;
+            dt{
+                margin-left: 10px;
+              
+            }
+        }
+    }
+
+    .grid-item3 {
+        margin-right: 50px;
+        .main2{
+ 
+            display: flex;
+            dt{
+  
+                margin-left: 10px;
+              
+            }
+        }
+      }
+
+  }
+
+  
