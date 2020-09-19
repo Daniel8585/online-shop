@@ -24,11 +24,11 @@ function ShopList (){
                <p className="title">Cruise Dual Analog</p>
                <p className="price">$250.00</p>
                <ul>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
                </ul>
             </div>
             <div >
@@ -36,11 +36,12 @@ function ShopList (){
                <p className="title">Crown Summit Backpack</p>
                <p className="price">$250.00</p>
                <ul>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
+                  
                </ul>
             </div>
             <div>
@@ -48,11 +49,11 @@ function ShopList (){
                 <p className="title" >Joust Duffle Bag</p>
                <p className="price">$250.00</p>
                <ul>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
                </ul>
             </div>
             <div>
@@ -60,11 +61,11 @@ function ShopList (){
                 <p className="title">Voyage Yoga Bag</p>
                <p className="price">$250.00</p>
                <ul>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
-                  <dt><FaStar className="star"/></dt>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
+                  <ol><FaStar className="star"/></ol>
                </ul>
             </div>
        </div>
