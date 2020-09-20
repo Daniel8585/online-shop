@@ -71,10 +71,11 @@
         display: flex;
         padding: 0;
     
-        ol{
+        li{
             color:#FF9600;
             font-size: 14px;
             padding: 1px;
+            list-style-type: none;
         }
     }
 
