@@ -1,7 +1,12 @@
 import React from 'react';
 import NavBar from '../../component/NavBar/NavBar';
+import BlockShopApp from './BlackShopApp/BlockShopApp';
 import Category from './Category/Category';
 import ShopList from './ShopList/ShopList';
+import Footer from './Footer/Footer';
+import ContactApp from './ContactApp/ContactApp';
+
+
 function HomePage (){  
    return(    
     <div className="homepage1">
@@ -13,6 +18,15 @@ function HomePage (){
         </div>
         <div>
         <Category/>
+        </div>
+        <div>
+          <BlockShopApp/>
+        </div>
+        <div>
+           <ContactApp/>
+        </div>
+        <div>
+           <Footer/>
         </div>
     </div>
    )
