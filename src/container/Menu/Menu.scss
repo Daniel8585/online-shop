@@ -3,6 +3,10 @@
     border: 1px solid #c3c3c3;
     display: flex;
     justify-content: space-between;
+
+    ul{
+        display: flex;
+    }
     .grid-item1{
         margin-left: 76px;
         .logo{
@@ -10,13 +14,18 @@
         }
     }
 
+
+
     .grid-item2{
         .main1{
             list-style-type: none;
 
             display: flex;
-            dt{
+            li{
                 margin-left: 10px;
+                list-style-type: none;
+
+
               
             }
         }
@@ -27,8 +36,8 @@
         .main2{
  
             display: flex;
-            dt{
-  
+            li{
+                list-style-type: none;
                 margin-left: 10px;
               
             }

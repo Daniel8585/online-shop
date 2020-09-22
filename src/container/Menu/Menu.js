@@ -3,12 +3,7 @@ import '../Menu/Menu.scss';
 import { FaShoppingBasket } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { BiMenu } from "react-icons/bi";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+
 
  function Menu(){
      return(
@@ -19,23 +14,23 @@ import {
   <Router>
         <div className='grid-item2'>
            <ul className='main1'>
-            <dt><Link to ='/'>MENU</Link></dt>
-            <dt><Link to ='men'>MEN</Link></dt>
-            <dt><Link to ='women'>WOMEN </Link></dt>
-            <dt><Link to ='kids'>KIDS</Link></dt>
-            <dt><Link to ='jewellery'>JEWELLERY</Link></dt>
-            <dt><Link to ='jewellery'>JEWELLERY</Link></dt>
-            <dt><Link to ='accessories'>ACCESSORIES</Link></dt>
+            <li><Link to ='/'>MENU</Link></li>
+            <li><Link to ='men'>MEN</Link></li>
+            <li><Link to ='women'>WOMEN </Link></li>
+            <li><Link to ='kids'>KIDS</Link></li>
+            <li><Link to ='jewellery'>JEWELLERY</Link></li>
+            <li><Link to ='jewellery'>JEWELLERY</Link></li>
+            <li><Link to ='accessories'>ACCESSORIES</Link></li>
            </ul>
          
           
         </div>
         <div className='grid-item3'>
            <ul className='main2'>
-            <dt><FaShoppingBasket/></dt>
-            <dt><FaSearch/></dt>
+            <li><FaShoppingBasket/></li>
+            <li><FaSearch/></li>
 
-            <dt><BiMenu/></dt>
+            <li><BiMenu/></li>
            
            </ul> 
          
