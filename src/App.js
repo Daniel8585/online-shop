@@ -1,4 +1,5 @@
 import React from 'react';
+import Menu from './container/Menu/Menu';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -10,8 +11,12 @@ function App() {
    <Router>  
     <Switch>
        <Route exact path='/' component={HomePage}/>
+
     </Switch> 
   </Router>
+
+
+
   );
 }
 
