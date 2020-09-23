@@ -1,0 +1,26 @@
+.ContactApp{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 20%;
+    div{
+        margin-bottom: 80px;
+        
+        p{
+            font-size: 16pt;
+            margin-left: 40px;
+        }
+
+        li{
+            font-size: 14pt;
+            margin-bottom: 10px;
+            list-style-type: none;
+            padding-top: 15px;
+        }
+        .mail{
+            color: #3CB878;
+        }
+    }
+
+
+}
