@@ -1,9 +1,5 @@
 import React from 'react';
 import NavBar from '../../component/NavBar/NavBar';
-
-import Category from './Category/Category';
-import ShopList from './../HomePage/components/ShopList/ShopList';
-
 import ShopList from './ShopList/ShopList';
 import Menu from './Menu/Menu';
 import BlockShopApp from './BlackShopApp/BlockShopApp';
