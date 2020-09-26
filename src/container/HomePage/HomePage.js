@@ -25,9 +25,9 @@ function HomePage (){
       <div>
          <ShopList/>
       </div>
-       <div>
-         <Category/>
-      </div>
+        <div>
+        <Category/>
+        </div>
       <div>
          <BlockShopApp/>
       </div>
@@ -37,6 +37,7 @@ function HomePage (){
       <div>
          <Footer/>
       </div>
+
     </div>
    )
               
