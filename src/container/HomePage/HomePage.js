@@ -9,6 +9,7 @@ import ContactApp from './ContactApp/ContactApp';
 import Cover from './Cover/Cover';
 
 
+
 function HomePage (){  
    return(    
     <div className="homepage1">
