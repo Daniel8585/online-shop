@@ -5,6 +5,7 @@ import Category from './Category/Category';
 import ShopList from './ShopList/ShopList';
 import Footer from './Footer/Footer';
 import ContactApp from './ContactApp/ContactApp';
+import Cover from './Cover/Cover';
 
 
 function HomePage (){  
@@ -14,19 +15,22 @@ function HomePage (){
         <NavBar/>
         </div>
         <div>
+        <Cover/>
+        </div>
+        <div>
         <ShopList/>
         </div>
         <div>
         <Category/>
         </div>
         <div>
-          <BlockShopApp/>
+        <BlockShopApp/>
         </div>
         <div>
-           <ContactApp/>
+        <ContactApp/>
         </div>
         <div>
-           <Footer/>
+        <Footer/>
         </div>
     </div>
    )
