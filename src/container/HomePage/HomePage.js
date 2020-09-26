@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../../component/NavBar/NavBar';
 import ShopList from '../ShopList/ShopList';
+import Category from './Category/Category';
 
 
 function HomePage (){  
@@ -11,6 +12,9 @@ function HomePage (){
         </div>
         <div>
         <ShopList/>
+        </div>
+        <div>
+           <Category/>
         </div>
     </div>
    )
