@@ -1,3 +1,27 @@
+.BlockApp{
+    
+    width: 1920px;
+     
+   .title{
+       text-align: center;
+       margin-top: 80px;
+       
+        .text1{
+            font-size: 30pt;
+            color: black;
+            margin-bottom: 5px;
+        }
+
+        .text2{
+            font-size: 14pt;
+            color:#3CB878 ;
+            margin: 0;
+            padding: 0;
+        }
+
+    }
+
+
 .BlockShopApp{
     width: 1920px; 
     display: grid;
@@ -47,4 +71,5 @@
        
     
         
+}
 }
