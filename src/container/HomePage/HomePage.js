@@ -8,7 +8,7 @@ import Footer from './Footer/Footer';
 import ContactApp from './ContactApp/ContactApp';
 import Cover from './Cover/Cover';
 import Sall from './Sall/Sall';
-
+import InputApp from './InputApp/InputApp';
 
 function HomePage (){  
    return(    
@@ -33,6 +33,9 @@ function HomePage (){
       </div>
       <div>
          <BlockShopApp/>
+      </div>
+      <div>
+         <InputApp/>
       </div>
       <div>
          <ContactApp/>
