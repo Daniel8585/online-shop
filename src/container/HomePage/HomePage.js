@@ -25,20 +25,9 @@ function HomePage (){
       <div>
          <ShopList/>
       </div>
-       <div>
-<<<<<<< HEAD
-        <NavBar/>
-        </div>
-        <div>
-        <ShopList/>
-        </div>
         <div>
         <Category/>
         </div>
-        
-=======
-         <Category/>
-      </div>
       <div>
          <BlockShopApp/>
       </div>
@@ -48,7 +37,7 @@ function HomePage (){
       <div>
          <Footer/>
       </div>
->>>>>>> Development
+
     </div>
    )
               
