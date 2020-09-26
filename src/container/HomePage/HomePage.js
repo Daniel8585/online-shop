@@ -7,7 +7,7 @@ import Category from './Category/Category';
 import Footer from './Footer/Footer';
 import ContactApp from './ContactApp/ContactApp';
 import Cover from './Cover/Cover';
-
+import Sall from './Sall/Sall';
 
 
 function HomePage (){  
@@ -28,6 +28,9 @@ function HomePage (){
         <div>
         <Category/>
         </div>
+      <div>
+         <Sall/>
+      </div>
       <div>
          <BlockShopApp/>
       </div>
