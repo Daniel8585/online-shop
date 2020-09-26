@@ -3,7 +3,7 @@ import './Menu.scss';
 import { FaShoppingBasket } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { BiMenu } from "react-icons/bi";
-
+import{ Link} from 'react-router-dom';
 
  function Menu(){
      return(
@@ -11,7 +11,6 @@ import { BiMenu } from "react-icons/bi";
         <div className='grid-item1'>
             <h2><spam className='logo'>RENOSHOP</spam>BEE</h2>
         </div>
-  <Router>
         <div className='grid-item2'>
            <ul className='main1'>
             <li><Link to ='/'>MENU</Link></li>
@@ -35,7 +34,7 @@ import { BiMenu } from "react-icons/bi";
            </ul> 
          
     </div>
-      </Router>
+      
 </div>
 
      )
