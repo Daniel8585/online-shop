@@ -14,6 +14,7 @@ function HomePage (){
         <div>
         <Category/>
         </div>
+        
     </div>
    )
               
