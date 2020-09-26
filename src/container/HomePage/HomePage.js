@@ -1,9 +1,9 @@
 import React from 'react';
 import NavBar from '../../component/NavBar/NavBar';
-<<<<<<< HEAD
+
 import Category from './Category/Category';
 import ShopList from './../HomePage/components/ShopList/ShopList';
-=======
+
 import ShopList from './ShopList/ShopList';
 import Menu from './Menu/Menu';
 import BlockShopApp from './BlackShopApp/BlockShopApp';
@@ -13,7 +13,6 @@ import ContactApp from './ContactApp/ContactApp';
 import Cover from './Cover/Cover';
 
 
->>>>>>> Development
 function HomePage (){  
    return(    
     <div className="homepage1">
