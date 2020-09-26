@@ -1,0 +1,49 @@
+.menuDiv{
+    width: 1920px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    ul{
+        display: flex;
+    }
+    .grid-item1{
+        margin-left: 76px;
+        .logo{
+            color:green
+        }
+    }
+
+
+
+    .grid-item2{
+        .main1{
+            list-style-type: none;
+
+            display: flex;
+            li{
+                margin-left: 10px;
+                list-style-type: none;
+
+
+              
+            }
+        }
+    }
+
+    .grid-item3 {
+        margin-right: 50px;
+        .main2{
+ 
+            display: flex;
+            li{
+                list-style-type: none;
+                margin-left: 10px;
+              
+            }
+        }
+      }
+
+  }
+
+  

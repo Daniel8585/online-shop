@@ -16,7 +16,7 @@ function Category(){
                 <p className="p2">Shop Big Save Big</p>
               </div>
            </div>
-             
+              
            <div  className="block">
               <div>
                  <FaPaperPlane className="ic"/>
