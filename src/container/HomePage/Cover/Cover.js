@@ -15,7 +15,7 @@ function Cover (){
             </div>   
 
             <div className="butt">
-                <Button name="BUY NOW"/> 
+                <Button className="b1" name="BUY NOW"/> 
             </div>
 
         </div>
