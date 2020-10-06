@@ -1,7 +1,7 @@
 .BlockApp{
     
-    width: auto;
-     
+    width:auto;
+
    .title{
        text-align: center;
        margin-top: 80px;
@@ -23,12 +23,14 @@
 
 
 .BlockShopApp{
-    width: 1920px; 
+    width:auto; 
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     margin-top: 80px;
     justify-content: center;
-    
+    overflow-x: scroll;
+      
+
         div{
             width: 300px;
             height: 600px;
