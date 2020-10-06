@@ -1,6 +1,6 @@
 .BlockApp{
     
-    width: 1920px;
+    width:auto;
      
    .title{
        text-align: center;
@@ -28,7 +28,10 @@
     grid-template-columns: auto auto auto auto auto;
     margin-top: 80px;
     justify-content: center;
-    
+    background-color: lightblue;
+    overflow-x: auto;
+      
+
         div{
             width: 300px;
             height: 600px;
