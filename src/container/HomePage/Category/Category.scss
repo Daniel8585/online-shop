@@ -1,0 +1,33 @@
+.Category{
+    width: auto;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+ .block{
+    width: 480px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    background-color:#F5F6F9 ;
+ }   
+ 
+    div{
+        text-align: center;
+        margin-top: 15%;
+
+        .p1{
+            font-size: 18px;
+            margin: 1px;
+        }
+        .p2{
+            font-size: 13px;
+            margin: 1px;
+        }
+        .ic{
+            font-size: 30px;
+        }
+        
+        
+    }
+
+}

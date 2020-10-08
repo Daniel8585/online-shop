@@ -1,0 +1,63 @@
+#main {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    .div2{
+
+        
+        div{
+            text-align: center;
+            margin-right: 0px;
+            margin-top: 50px;   
+        }
+    }
+
+.div1,.div2,.div3 {
+    background-color: black;
+    width: 640px;
+    height: 640px;
+    display: flex;
+    justify-content:center;
+    
+    .a{
+      transform: rotateZ(315deg);
+      width: 300px;
+      height:300px;
+      border: 8px double white;
+      margin-top: 170px;
+      text-align: center;
+      .text1,.text3{
+          font-size: 18pt;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+    
+        .text2{
+            font-size: 30pt;
+        }
+        div{
+        color: white;
+        transform: rotateZ(405deg);
+        text-align: center;
+        margin-top: 83px;
+        }
+      .p1{
+       
+        .text1{
+          font-size: 30pt;
+        }
+      }
+    }
+}  
+
+
+  
+  
+}
+
+  
+
+
+
+
