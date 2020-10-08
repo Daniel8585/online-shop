@@ -13,13 +13,13 @@ import{ Link} from 'react-router-dom';
         </div>
         <div className='grid-item2'>
            <ul className='main1'>
-            <li><Link to ='/'>MENU</Link></li>
-            <li><Link to ='men'>MEN</Link></li>
-            <li><Link to ='women'>WOMEN </Link></li>
-            <li><Link to ='kids'>KIDS</Link></li>
-            <li><Link to ='jewellery'>JEWELLERY</Link></li>
-            <li><Link to ='jewellery'>JEWELLERY</Link></li>
-            <li><Link to ='accessories'>ACCESSORIES</Link></li>
+            <li><Link className='link' to ='/' >MENU</Link></li>
+            <li><Link className='link' to ='men'>MEN</Link></li>
+            <li><Link className='link' to ='women'>WOMEN </Link></li>
+            <li><Link className='link' to ='kids'>KIDS</Link></li>
+            <li><Link className='link' to ='jewellery'>JEWELLERY</Link></li>
+            <li><Link className='link' to ='jewellery'>JEWELLERY</Link></li>
+            <li><Link className='link' to ='accessories'>ACCESSORIES</Link></li>
            </ul>
          
           

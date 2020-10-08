@@ -6,6 +6,7 @@
 
     ul{
         display: flex;
+
     }
     .grid-item1{
         margin-left: 76px;
@@ -24,9 +25,11 @@
             li{
                 margin-left: 10px;
                 list-style-type: none;
+                .link{
+                text-decoration: none;
+                color: black;
 
-
-              
+                }                
             }
         }
     }
