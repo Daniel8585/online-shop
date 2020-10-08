@@ -1,8 +1,8 @@
 .papadiv{
     display: flex;
+    justify-content: center;
     width: auto;
     height: 300px;
-    grid-template-columns: auto auto;
     margin-top: 80px;
     margin-bottom: 80px;
     .div1{
